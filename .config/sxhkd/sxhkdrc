@@ -135,6 +135,6 @@ alt + super + {Left,Down,Up,Right}
     /home/s4vitar/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 # ------------------------------------------------------------------------------------------------
 
-#OPen firefox
+#Open firefox
 super + shift + f
 	firejail /opt/firefox/firefox   

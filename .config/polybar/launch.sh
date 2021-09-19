@@ -15,10 +15,15 @@ polybar log -c ~/.config/polybar/current.ini &
 polybar secondary -c ~/.config/polybar/current.ini &
 polybar ip -c ~/.config/polybar/current.ini &
 polybar vpn -c ~/.config/polybar/current.ini &
+polybar tor -c ~/.config/polybar/current.ini &
+
 
 ## Right bar
 polybar top -c ~/.config/polybar/current.ini &
 polybar primary -c ~/.config/polybar/current.ini &
-polybar tor -c ~/.config/polybar/current.ini &
+polybar audio -c ~/.config/polybar/current.ini &
+polybar memory -c ~/.config/polybar/current.ini &
+polybar cpu -c ~/.config/polybar/current.ini &
+
 ## Center bar
 polybar primary -c ~/.config/polybar/workspace.ini &

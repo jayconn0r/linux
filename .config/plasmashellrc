@@ -1,8 +1,16 @@
-[PlasmaTransientsConfig]
-PreloadWeight=42
+[KFileDialog Settings]
+Recent Files[$e]=dark.jpg,file:$HOME/Desktop/images/dark.jpg
+Recent URLs[$e]=file:$HOME/Desktop/images/
+listViewIconSize=16
+
+[PlasmaViews][Panel 18][Defaults]
+thickness=25
+
+[PlasmaViews][Panel 18][Horizontal1920]
+thickness=25
 
 [ScreenConnectors]
 0=eDP-1
 
 [Updates]
-performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js

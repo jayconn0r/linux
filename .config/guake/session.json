@@ -1,6 +1,6 @@
 {
     "schema_version": 2,
-    "timestamp": 1631912383,
+    "timestamp": 1632036879,
     "workspace": {
         "0": [
             [
@@ -11,7 +11,7 @@
                             "directory": "/home/jayconnor"
                         }
                     ],
-                    "label": "parrot ❐ 36 ● 1 zsh",
+                    "label": "parrot ❐ 0 ● 1 zsh",
                     "custom_label_set": false
                 }
             ]

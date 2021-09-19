@@ -24,7 +24,7 @@ case $chosen in
         systemctl reboot
         ;;
     $lock)
-        i3lock
+        gnome-terminal --full-screen -e "bash -c 'cmatrix'" & slimlock
         ;;
     $suspend)
         mpc -q pause
@@ -32,7 +32,7 @@ case $chosen in
         systemctl suspend
         ;;
     $logout)
-        openbox --exit
+        kill -9 -1
         ;;
 esac
 

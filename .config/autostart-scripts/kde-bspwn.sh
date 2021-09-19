@@ -1,0 +1,1 @@
+/home/jayconnor/kde-bspwn.sh

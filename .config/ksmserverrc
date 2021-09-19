@@ -1,6 +1,9 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
 [General]
 confirmLogout=true
 excludeApps=
-loginMode=default
+loginMode=emptySession
 offerShutdown=true
 shutdownType=2

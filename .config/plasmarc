@@ -5,7 +5,7 @@ Enabled=true
 Delay=0.7
 
 [Theme]
-name=breeze-dark
+name=Orchis-dark
 
 [Wallpapers]
-usersWallpapers=/usr/share/backgrounds/default.jpg
+usersWallpapers=/home/jayconnor/Desktop/images/dark.jpg,/usr/share/backgrounds/default.jpg

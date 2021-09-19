@@ -1,0 +1,20 @@
+{
+    "schema_version": 2,
+    "timestamp": 1631912383,
+    "workspace": {
+        "0": [
+            [
+                {
+                    "panes": [
+                        {
+                            "type": "term",
+                            "directory": "/home/jayconnor"
+                        }
+                    ],
+                    "label": "parrot ❐ 36 ● 1 zsh",
+                    "custom_label_set": false
+                }
+            ]
+        ]
+    }
+}

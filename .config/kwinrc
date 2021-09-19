@@ -76,4 +76,5 @@ BorderSizeAuto=false
 ButtonsOnLeft=XAIH
 ButtonsOnRight=MS
 CloseOnDoubleClickOnMenu=false
-library=org.kde.breeze
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Orchis-dark

@@ -14,7 +14,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -23,7 +23,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][18][Applets][19][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][18][Applets][19][Configuration][General]
 customButtonImage=emblem-parrot
@@ -41,26 +41,37 @@ global=Alt+F1
 immutability=1
 plugin=org.kde.plasma.pager
 
+[Containments][18][Applets][20][Configuration]
+PreloadWeight=34
+
 [Containments][18][Applets][21]
 immutability=1
 plugin=org.kde.plasma.taskmanager
+
+[Containments][18][Applets][21][Configuration]
+PreloadWeight=34
 
 [Containments][18][Applets][22]
 immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][18][Applets][22][Configuration]
+PreloadWeight=34
 SystrayContainmentId=23
 
 [Containments][18][Applets][24]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
+[Containments][18][Applets][24][Configuration]
+PreloadWeight=34
+
 [Containments][18][Applets][33]
 immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][18][Applets][33][Configuration]
+PreloadWeight=34
 localPath=/home/jayconnor/.local/share/plasma_icons/org.kde.dolphin (2).desktop
 url=file:///usr/share/applications/org.kde.dolphin.desktop
 
@@ -69,6 +80,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][18][Applets][34][Configuration]
+PreloadWeight=34
 localPath=/home/jayconnor/.local/share/plasma_icons/firefox (2).desktop
 url=file:///usr/share/applications/firefox.desktop
 
@@ -77,6 +89,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][18][Applets][37][Configuration]
+PreloadWeight=34
 localPath=/home/jayconnor/.local/share/plasma_icons/org.kde.kwrite (2).desktop
 url=file:///usr/share/applications/org.kde.kwrite.desktop
 
@@ -85,6 +98,7 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][18][Applets][38][Configuration]
+PreloadWeight=34
 localPath=/home/jayconnor/.local/share/plasma_icons/org.kde.konsole (2).desktop
 url=file:///usr/share/applications/org.kde.konsole.desktop
 
@@ -116,16 +130,19 @@ immutability=1
 plugin=org.kde.plasma.icon
 
 [Containments][18][Applets][60][Configuration]
-PreloadWeight=34
+PreloadWeight=18
 localPath=/home/jayconnor/.local/share/plasma_icons/codium (1).desktop
 url=file:///usr/share/applications/codium.desktop
 
 [Containments][18][ConfigDialog]
 DialogHeight=84
-DialogWidth=1366
+DialogWidth=1920
+
+[Containments][18][Configuration]
+PreloadWeight=34
 
 [Containments][18][General]
-AppletOrder=19;33;20;34;38;37;60;43;21;22;24
+AppletOrder=19;33;20;34;38;37;60;21;22;24
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=92
@@ -150,7 +167,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
@@ -158,17 +175,29 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.volume
 
+[Containments][23][Applets][25][Configuration]
+PreloadWeight=34
+
 [Containments][23][Applets][26]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][23][Applets][26][Configuration]
+PreloadWeight=34
 
 [Containments][23][Applets][27]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][23][Applets][27][Configuration]
+PreloadWeight=34
+
 [Containments][23][Applets][28]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][23][Applets][28][Configuration]
+PreloadWeight=34
 
 [Containments][23][Applets][29]
 immutability=1
@@ -178,9 +207,15 @@ plugin=org.kde.discovernotifier
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][23][Applets][30][Configuration]
+PreloadWeight=34
+
 [Containments][23][Applets][31]
 immutability=1
 plugin=org.kde.plasma.bluetooth
+
+[Containments][23][Applets][31][Configuration]
+PreloadWeight=34
 
 [Containments][23][Applets][32]
 immutability=1
@@ -193,13 +228,19 @@ PreloadWeight=55
 immutability=1
 plugin=org.kde.kdeconnect
 
+[Containments][23][Applets][62][Configuration]
+PreloadWeight=34
+
 [Containments][23][Applets][63]
 immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
+[Containments][23][Configuration]
+PreloadWeight=34
+
 [Containments][23][General]
-extraItems=org.kde.discovernotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.keyboardindicator
-knownItems=org.kde.discovernotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.keyboardindicator
+extraItems=org.kde.discovernotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.keyboardindicator,org.kde.kupapplet
+knownItems=org.kde.discovernotifier,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.notifications,org.kde.plasma.volume,org.kde.kdeconnect,org.kde.plasma.keyboardindicator,org.kde.kupapplet
 
 [Containments][39][Wallpaper][org.kde.image][General]
 Image=file://usr/share/backgrounds/default.jpg
@@ -214,14 +255,21 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][61][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=1001
+DialogWidth=1896
+
+[Containments][61][Configuration]
+PreloadWeight=34
 
 [Containments][61][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=668
+ToolBoxButtonY=25
 filterMimeTypes=\\0
 
 [Containments][61][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/desktop-base/parrot-theme/wallpaper/contents/images/1920x1080.png
+SlidePaths=/home/jayconnor/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][7][Applets][10][Configuration]
 PreloadWeight=42
@@ -251,5 +299,5 @@ PreloadWeight=42
 PreloadWeight=42
 
 [ScreenMapping]
-itemsOnDisabledScreens=
-screenMapping=desktop:/README.license,0
+itemsOnDisabledScreens=0,3,desktop:/Old Firefox Data,desktop:/README.license,desktop:/images
+screenMapping=desktop:/Old Firefox Data,0,desktop:/README.license,0,desktop:/images,0
